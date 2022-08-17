@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
   }
   .header {
-    height: 100vh;
+    height: 120vh;
   }
   .header .contenedor-header {
     height: 100%;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: inline-grid;
   justify-content: stretch;
   align-items: flex-end;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 .header .contenedor-header .perfil1 .Perfil {
   height: 120%;
@@ -195,13 +195,13 @@ h1, h2, h3, h4, h5, h6, p {
   box-shadow: 2px 2px 2px white;
 }
 .header .contenedor-header .nombre {
-  padding: 80px;
   display: grid;
   grid-row-end: none;
   position: absolute;
   font-family: verdana;
   font-weight: bold;
   color: #5f9ea0;
+  margin-left: 10%;
 }
 .header .contenedor-header .nombre .fade-in {
   animation: fadeIn 3s;
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: verdana;
 }
 .header .contenedor-header h2 {
-  margin-left: 370px;
+  margin-left: 45%;
   position: absolute;
   display: grid;
   width: 60%;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
   }
   .header {
-    height: 100vh;
+    height: 120vh;
   }
   .header .contenedor-header {
     height: 100%;
