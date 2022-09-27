@@ -53,77 +53,80 @@
 
 
 .header
-    height: 30rem
+    height: 100%
     width: 100%
+
     
+        
     .video 
-        position: absolute
         opacity: 0.7
         width: 100%
         height: 100%
-        display: grid
+        display: flex
         justify-content: center
-      
-    
+
     .contenedor-header
-        display: grid
+        display: flex
+        flex-direction: row
+        width: 100%
+        height: 50%
         align-items: center
-        justify-content: flex-start
         align-content: center
-        position: relative
-        
+        justify-content: center
+        margin-bottom: 100px
+        padding-bottom: 100px
+       
+    
+
         .perfil1
-            height: 86%
             position: relative
-            display: inline-grid
-            justify-content: stretch
-            align-items: flex-end
-            margin-left: 150px
+            display: flex
+            flex-direction: row
+            max-height: 50%
+            max-width: 40%
             .Perfil
-                height: 120%
-                width: 50%
+                display: flex
+                max-width: 60%
                 border-radius: 50%
-                box-shadow: 2px 2px 2px white
-               
+                box-shadow: 2px 2px 1px 1px black
+                padding: 2px
+                margin: 0 25px
 
-        .nombre
-            padding: 30px
-            display: grid
-            grid-row-end: none
-            position: absolute
-            font-family: verdana
-            font-weight: bold
-            color: #5f9ea0
-            margin-left: 17%
-            .fade-in
-                animation: fadeIn 3s
-                @keyframes fadeIn
-                    0%
-                        opacity: 0
-                    50%
-                        opacity: .5
-                    100%
-                        opacity: 1
-        h1
-            font-size: 60px
-            grid-auto-columns: max-content
-            margin-left: 430px
-            position: absolute
-            display: grid
-            width: 60%
-            text-align: center
-            font-family: verdana
+        .contenedor-nombre
+            display: flex
+            flex-direction: column
+           
+                
 
-        h2
-            margin-left: 45%
-            position: absolute
-            display: grid
-            width: 60%
-            text-align: center
-            font-family: verdana
-            color: #6495ed 
-               
-        blockquote
-            line-height: 1.5
-            font-style: italic  
-            color: red
+            .nombre
+                padding: 30px
+                position: relative
+                display: flex
+                flex-direction: column
+                font-family: verdana
+                font-weight: bold
+                color: #5f9ea0
+                width: 100%
+                .fade-in
+                    animation: fadeIn 3s
+                    @keyframes fadeIn
+                        0%
+                            opacity: 0
+                        50%
+                            opacity: .5
+                        100%
+                            opacity: 1
+            h1
+                font-size: 50px
+                font-family: verdana
+                text-align: center
+
+            h2
+                text-align: center
+                font-family: verdana
+                color: #6495ed
+                
+            blockquote
+                line-height: 1.5
+                font-style: italic  
+                color: red

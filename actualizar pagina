@@ -1,0 +1,5 @@
+sass -- watch style.sass style.css  
+
+sass  css/style.sass  css/style.css  -- watch
+
+sass  css/style.sass  css/style.css  
